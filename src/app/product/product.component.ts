@@ -12,7 +12,8 @@ export class ProductComponent implements OnInit {
   }
 
   ngOnInit() {
-     this.ProductId = this.rooteInfo.snapshot.params.userId;
+    this.rooteInfo.params.subscribe((params: Params) => this.ProductId = params.userId);
+    // this.ProductId = this.rooteInfo.snapshot.params.userId;
   }
 
 }
