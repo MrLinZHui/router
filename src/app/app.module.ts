@@ -9,6 +9,7 @@ import { Code404Component } from './code404/code404.component';
 import { ProductDescComponent } from './product-desc/product-desc.component';
 import { SellerInfoComponent } from './seller-info/seller-info.component';
 import { ProductInfoComponent } from './product-info/product-info.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductInfoComponent } from './product-info/product-info.component';
     Code404Component,
     ProductDescComponent,
     SellerInfoComponent,
-    ProductInfoComponent
+    ProductInfoComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
